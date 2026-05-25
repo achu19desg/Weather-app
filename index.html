@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<title>Weather App</title>
+</head>
+
+<body class="bg-gradient-to-br from-cyan-400 via-blue-800 to-indigo-900 min-h-screen flex justify-center items-center p-4">
+    <div class="bg-white/20 backdrop-blur-lg rounded-3xl shadow-2xl w-full max-w-md p-6">
+        <h1 class="text-white text-4xl font-bold text-center mb-6">🌦 Weather App</h1>
+
+        <form id="searchForm" class="flex gap-3 mb-6">
+            <input id="searchInput" type="text" placeholder="Search city..." class="flex-1 px-4 py-3 rounded-xl outline-none bg-white/80 text-black">
+            <button type="submit" class="bg-blue-800 hover:bg-blue-600 text-white px-5 py-3 rounded-xl transition">Search</button>
+        </form>
+        
+        <div id="error" class="hidden text-red-200 bg-red-500/30 rounded-xl px-4 py-2 text-center mb-4">❌ No location found
+
+        </div>
+        
+        <div id="weather" class="text-center">
+            <img id="weather_icon" src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="weather" class="w-28 mx-auto mb-4">
+            
+            <h2 id="temp" class="text-white text-6xl font-bold mb-2"></h2>
+            <p id="weather_description" class="text-white text-2xl mb-2"></p>
+            <p id="weather_location" class="text-white/80 text-lg mb-6"></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
