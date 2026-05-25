@@ -29,7 +29,7 @@ This application allows users to search for any city and get real-time weather i
 
 ## 🚀 Live Demo
 
-🔗 https://your-weather-app.netlify.app
+🔗 https://achu19desg.github.io/Weather-app/
 
 ---
 
@@ -37,11 +37,11 @@ This application allows users to search for any city and get real-time weather i
 
 ### Home Page
 
-![Home Screenshot](images/ss1.png)
+![Home Screenshot](ss1.png)
 
 ### Weather Result
 
-![Weather Screenshot](images/ss2.png)
+![Weather Screenshot](ss2.png)
 
 ---
 
